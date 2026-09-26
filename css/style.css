@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Manrope", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(218, 23%, 16%);
+}
+.main {
+    position: relative;
+    max-width: 450px;
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 15px;
+    padding-bottom: 20px;
+}
+.num-advice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+.num-advice p {
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2.5px;
+    font-weight: 600;
+    color: hsl(150, 100%, 66%);
+}
+.advice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 30px;
+    
+}
+.advice h3 {
+    font-size: 22px;
+    max-width: 350px;
+    color: hsl(193, 38%, 86%);
+    font-weight: bolder;
+}
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+}
+.img img {
+    width: 80%;
+}
+.dice {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 50%);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: hsl(150, 100%, 66%);
+    border-radius: 50%;
+    cursor: pointer;
+}
+.dice img {
+    width: 20px;
+}
+.dice:hover {
+    box-shadow: 0px 0px 30px hsl(150, 100%, 66%);
+}
